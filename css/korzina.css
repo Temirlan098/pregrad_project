@@ -1,0 +1,93 @@
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.tovary{
+    height: 700px;
+}
+
+.tovary .container{
+    margin-top: 100px;
+}
+
+.tovary .container h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.spisok{
+    display: inline;
+}
+
+.moizakaz{
+    display: flex;
+    margin: 10px 0; 
+    border: 3px solid rgb(90, 90, 90);
+    width: 800px;
+}
+
+.moizakaz img {
+    width: 130px;
+    height: auto;
+    padding: 10px 0 10px 10px;
+}
+
+.info{
+    display: inline;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-right: auto;
+
+}
+
+.info h4{
+    margin-top: 5px;
+    color: rgb(90, 90, 90);
+}
+
+.circle-button {
+    margin-left: auto; /* Располагаем кнопку справа */
+    margin-right: 50px; /* Добавлен фиксированный отступ справа */
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #F89BEF;
+    background-color: #ffffff; /* Фон кнопки */
+    color: #F89BEF; /* Цвет текста */
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease; /* Добавлен переход для цвета текста */
+}
+
+.circle-button:hover {
+    background-color: #F89BEF; /* Изменен цвет фона при наведении */
+    color: #ffffff; /* Изменен цвет текста при наведении */
+}
+
+.confirmation-button {
+    /* margin: 0 50px;  */
+    margin-left: 1000px;
+    margin-top: 100px;
+    padding: 15px 20px;
+    width: 200px;
+    background-color: #4CAF50; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста */
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.confirmation-button:hover {
+    background-color: #45a049; /* Изменен цвет фона при наведении */
+}
+
+
+
+

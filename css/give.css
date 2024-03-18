@@ -1,0 +1,187 @@
+.giv_main{
+    background-color: #a648a01c
+}
+.cont{
+    margin-left: 350px;
+    margin-bottom: -100px;
+}
+
+/* Вы можете также задать размеры тексту с помощью CSS */
+.giv_text h1 {
+    font-size: 40px;
+    padding-top: 100px;
+    font-weight:900;
+    color: #0e0c0e;
+}
+
+.giv_text p {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.add_photo h1 {
+    font-size: 40px;
+    font-weight:900;
+    color: #0e0c0e;
+}
+
+.image-links {
+    display: flex;
+    margin-top: 50px; /* Добавить отступ между блоками с изображениями */
+    margin-bottom: 50px;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: #ffffff; /* Задний цвет дива */
+  text-align: center;
+  padding: 20px;
+  margin-right: 40px; 
+  border-radius: 40px;
+  transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
+  cursor: pointer; /* Изменение курсора при наведении */
+  border: 0.1px solid;
+}
+
+.box:hover {
+  background-color: #f1f1f1; /* Новый цвет при наведении */
+}
+
+
+.box img {
+  width: 70px; /* Замените на желаемый размер иконки */
+  height: 70px; /* Замените на желаемый размер иконки */
+  margin-top: 70px;
+}
+
+.box p {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.single-image-link {
+    margin-top: 50px; /* Добавить отступ между блоками с изображениями */
+}
+
+.box_2 {
+  width: 1590px;
+  height: 250px;
+  background-color: #ffffff; /* Задний цвет дива */
+  padding: 20px;
+  border-radius: 40px;
+  transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
+  cursor: pointer; /* Изменение курсора при наведении */
+  border: 0.1px solid;
+  margin-bottom: 100px;
+
+}
+
+.box_2:hover {
+  background-color: #f1f1f1; /* Новый цвет при наведении */
+}
+
+
+.box_2 img {
+  width: 70px; /* Замените на желаемый размер иконки */
+  height: 70px; /* Замените на желаемый размер иконки */
+  margin-top: 70px;
+  margin-left: 740px;
+}
+
+
+.knopka .btnn {
+    margin-top: -40px; /* Добавить отступ между блоками с изображениями */
+    display: inline-block;
+    width: 1590px; /* Ширина кнопки */
+    height: 70px; /* Высота кнопки */
+    background-color: #F89BEF; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    text-align: center;
+    font-size: 23px;
+    line-height: 80px; /* Выравнивание по центру вертикально */
+    border: none;
+    border-radius: 100px; /* Закругленные углы кнопки */
+    transition: background-color 0.3s, color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+.delete_btn {
+  text-align: center;
+  font-size: 20px;
+  background-color: #333333; /* Цвет фона кнопки */
+  color:#f1f1f1
+}
+
+.knopka .btnn:hover {
+  background-color: #ff76f1;
+  transition: 0.6s;
+}
+
+.knopka{
+    padding-bottom: 100px;
+    display: flex;
+}
+
+  .calculator {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  input[type="number"] {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: rgb(255, 255, 255);
+  }
+
+  #weightInput::-webkit-inner-spin-button,
+#weightInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+  .bonus{
+    display: flex;
+  }
+
+  .bonus h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 15px;
+    padding-top: 10px;
+  }
+
+  .result {
+    background-color: #F89BEF;
+    color: white;
+    padding: 15px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 27px; 
+    height: 70px; /* фиксированная высота */
+    overflow: hidden; /* скрытие содержимого, если оно выходит за пределы блока */
+  }
+  
+  
+  button {
+    background-color: #F89BEF;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 1580px;
+    margin-bottom: 100px;
+  }
+  
+  button:hover {
+    background-color: #ff76f1; /* Изменение цвета фона при наведении */
+    color: #ffffff; /* Изменение цвета текста при наведении */
+    transition: 0.5s;
+}

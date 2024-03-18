@@ -1,0 +1,186 @@
+.ab_home {
+	position: relative;
+	padding: 175px 0;
+	min-height: 895px;
+	margin-bottom: -100px;
+}
+
+/* .ab_home-content {
+	max-width: 440px;
+}
+
+.ab_home-heading {
+	color: #01996d;
+	font-family: 'Georgia', serif;
+	font-weight: 700;
+	font-size: 65px;
+}
+
+.ab_home-heading + * {
+	margin-top: 30px;
+}
+
+.ab_home-text {
+	color: #484848;
+	line-height: 144.5%;
+	max-width: 430px;
+}
+
+.ab_home-text + * {
+	margin-top: 53px;
+}
+
+.ab_home-btn {
+	display: flex;
+} */
+
+
+/* .ab_home-bg-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.ab_home-bg-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+} */
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.text-overlay h4 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.text-overlay p {
+    font-size: 23px;
+    line-height: 1.6;
+}
+
+/* ------------- */
+
+.ab_home-bg-img {
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(250, 241, 229);
+}
+
+.ab_home-bg-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* ----ряды----- */
+.information{
+    padding-top: 200px;
+    background-color: #a648a01c
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.row:nth-child(4) {
+    padding-bottom: 3cm; /* Добавляем отступы в 1 см слева и справа */
+    margin-bottom: -50px;
+}
+
+.text-left,
+.text-right {
+    flex: 1;
+    width: 400px; /* Задаем ширину 50% для текстового блока */
+    box-sizing: border-box; /* Учитываем padding внутри ширины */
+}
+
+.text-left{
+    padding-right: 4cm; /* Добавляем пространство между текстом и изображением */
+
+}
+
+.text-right{
+    margin-left: -400px; /* Добавляем пространство между текстом и изображением */
+}
+
+.text-left h4 {
+    font-size: 44px;
+    margin-bottom: 20px;
+} 
+
+.text-right h4 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.text-left p {
+    font-size: 23px;
+    line-height: 1.6;
+
+}
+
+.text-right p {
+    font-size: 23px;
+    line-height: 1.6;
+}
+
+.text-right {
+    order: 1; /* Меняем порядок элементов для второго и четвертого ряда */
+}
+
+.image-left,
+.image-right {
+    flex: 1;
+    display: flex; /* Добавляем этот стиль */
+    align-items: center; /* Выравниваем изображения по вертикали */
+}
+
+
+.image-left img,
+.image-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+	.ab_home {
+		padding: 40px 0;
+		min-height: unset;
+	}
+	.ab_home-heading {
+		font-size: 45px;
+		line-height: 1.2;
+	}
+	.ab_home-text + * {
+		margin-top: 30px;
+	}
+	.ab_home-bg-img img {
+		opacity: 0.3;
+	}
+}

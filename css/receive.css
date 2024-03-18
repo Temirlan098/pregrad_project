@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e894e01a;
+  }
+  
+  .tovar .container h1 {
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-size: 23px;
+  }
+  
+  .categories {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .ctgr {
+    display: flex;
+  }
+
+  .category {
+    background-color: #e894e010;
+    border: 3px solid #211e1e; 
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    height: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.category:hover {
+    cursor: pointer;
+    background-color: #F89BEF; 
+    color: #ffffff; 
+    transition: 0.3s;
+}
+
+  .sort-by {
+    background-color: #e894e010;
+    border: 3px solid #211e1e; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 660px;
+  }
+
+  .sort-by:hover {
+    background-color: #F89BEF; 
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease; 
+}
+
+  .sort-by img {
+    height: 30px;
+    width: auto;
+    margin-right: 5px;
+    filter: invert(0%); 
+  }
+
+  .sort-by:hover img {
+    filter: invert(100%); /* Инвертирует цвет иконки при наведении */
+}
+  
+  .products {
+    display: inline;
+    margin-top: 100px;
+  }
+
+  .riad{
+    display: flex;
+  }
+  
+  .product {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    display: inline;
+    margin-top: 10px;
+    border: 0.5px solid #3d3d3d4d; 
+    border-radius: 10px;
+
+  }
+
+  .zakaz {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: -130px;
+
+  }
+
+  .zakaz .receive-btn:hover {
+    background-color: #ff76f1;
+  }
+
+  .imya{
+    margin-left: 10px;
+    margin-right: -30px;
+    background-color: #d0d0d058;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #484848ba;
+  }
+
+  
+  .product img {
+    width: 335px;
+    /* border-radius: 10px; */
+    margin-top: -121px;
+  }
+  
+  .product .receive-btn {
+    background-color: #F89BEF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 130px;
+    margin-left: 50px;
+  }
+  

@@ -1,0 +1,74 @@
+.footer {
+    padding: 24px 0 34px;
+    background-color: #161616;
+    color: #fff;
+	margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+}
+
+.footer-logo {
+    margin-top: 100px; /* Удаляем отступ у логотипа */
+    width: 300px;
+    height: auto;
+}
+
+.footer-nav {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin-top: 20px; /* Уменьшаем отступ между элементами списка */
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+    display: flex;
+    align-items: center; /* Выравниваем иконки и текст по вертикали */
+}
+
+.footer-nav a img {
+    margin-right: 10px; /* Добавляем отступ между иконкой и текстом */
+}
+
+.footer-nav a span {
+    margin-right: 10px; /* Добавляем отступ между иконкой и текстом */
+}
+
+.footer-nav a:hover {
+    opacity: 0.8s;
+	color: #F89BEF;
+}
+
+@media (max-width: 1399px) {
+    .footer {
+        padding: 80px 0 100px;
+    }
+
+    .footer-nav {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        padding: 40px 0 60px;
+    }
+
+    .footer-nav {
+        font-size: 18px;
+    }
+}
