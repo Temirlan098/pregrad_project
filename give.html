@@ -76,54 +76,18 @@
                     <h1>What do you want to offer?</h1>
                     <p>Select the type of item you want to offer: for sale or as a donation.</p>
                 </div>
-    
-				<!-- <div class="image-links">
-
-					<div class="box">
-						<img src="./img/clothes_icon.png" alt="Icon 1">
-						<p>CLOTHES</p>
-					</div>
-				
-					<div class="box">
-						<img src="./img/toys_icon.png" alt="Icon 2">
-						<p>TOYS</p>
-					</div>
-				
-					<div class="box">
-						<img src="./img/shoes_icon.png" alt="Icon 3">
-						<p>SHOES</p>
-					</div>
-
-                </div>
-
-
-    
-                <div class="add_photo">
-                    <h1>Upload a few photos of your items:</h1>
-                </div>
-    
-    
-                <div class="single-image-link">
-
-					<div class="box_2" id="uploadedImageBox">
-						<img id="uploadedImage" src="./img/add.png" alt="Uploaded Image">
-						<button id="deleteImageButton" onclick="deleteImage()">X</button>
-					</div>
-
-                </div> -->
-
 
 				<div class="image-links">
 					<div class="box" onclick="selectType('clothes')">
-						<img src="./img/clothes_icon.png" alt="Icon 1">
+						<img id="clothesimg" src="./img/clothes_icon.png" alt="Icon 1">
 						<p>CLOTHES</p>
 					</div>
 					<div class="box" onclick="selectType('toys')">
-						<img src="./img/toys_icon.png" alt="Icon 2">
+						<img id="toysimg" src="./img/toys_icon.png" alt="Icon 2">
 						<p>TOYS</p>
 					</div>
 					<div class="box" onclick="selectType('shoes')">
-						<img src="./img/shoes_icon.png" alt="Icon 3">
+						<img id="shoesimg" src="./img/shoes_icon.png" alt="Icon 3">
 						<p>SHOES</p>
 					</div>
 				</div>
@@ -132,36 +96,20 @@
                     <h1>Upload a few photos of your items:</h1>
                 </div>
 
-				
-				<!-- <div class="single-image-link">
-
-					<input type="file" id="imageInput" accept="image/*" style="display: none;">
-
-					<div class="box_2" onclick="openImageUploader()">
-						<img id="uploadedImage" src="./img/add.png" alt="Icon 3">
-					</div>
-
-				</div>
-    
-                <div class="knopka">
-                    <a href="#" class="btnn" onclick="sendData()" >SEND</a>
-                </div> -->
-
-
 				<div class="box_2" onclick="openImageUploader()">
 					<img id="uploadedImage" src="./img/add.png" alt="Icon 3">
 				</div>
-
+				
+				<div class="selectedImg"></div>
+				
+				<input type="file" id="imageInput" style="display: none;">
+			
 				<div>
-					
 					<input type="file" id="imageInput" accept="image/*" style="display: none;">
-
 				</div>
 
 
-				<button class="delete_btn" onclick="deleteImage()" style="width: 150px; margin-left: 715px;">DELETE</button>
-
-
+				<button class="delete_btn" onclick="deleteImage()">DELETE</button>
 
 				<div class="knopka">
 

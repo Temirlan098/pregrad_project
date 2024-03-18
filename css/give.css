@@ -2,7 +2,8 @@
     background-color: #a648a01c
 }
 .cont{
-    margin-left: 350px;
+    /* margin-left: 350px; */
+    padding: 0 100px;
     margin-bottom: -100px;
 }
 
@@ -23,12 +24,14 @@
     font-size: 40px;
     font-weight:900;
     color: #0e0c0e;
+    margin-bottom: 20px;
 }
 
 .image-links {
     display: flex;
     margin-top: 50px; /* Добавить отступ между блоками с изображениями */
     margin-bottom: 50px;
+    gap: 40px;
 }
 
 .box {
@@ -37,15 +40,22 @@
   background-color: #ffffff; /* Задний цвет дива */
   text-align: center;
   padding: 20px;
-  margin-right: 40px; 
+  /* margin-right: 40px;  */
   border-radius: 40px;
   transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
   cursor: pointer; /* Изменение курсора при наведении */
-  border: 0.1px solid;
 }
 
+.box-selected {
+  background-color: #2C2F2F;
+  color: #fff;
+}
+.box-selected>img {
+  filter: invert(98%) sepia(99%) saturate(44%) hue-rotate(97deg) brightness(111%) contrast(97%);
+}
 .box:hover {
-  background-color: #f1f1f1; /* Новый цвет при наведении */
+  /* background-color: #b4b4b4; Новый цвет при наведении */
+  box-shadow: 0px 2px 14px 5px lightgray; 
 }
 
 
@@ -66,7 +76,7 @@
 }
 
 .box_2 {
-  width: 1590px;
+  width: 100%;
   height: 250px;
   background-color: #ffffff; /* Задний цвет дива */
   padding: 20px;
@@ -75,7 +85,9 @@
   cursor: pointer; /* Изменение курсора при наведении */
   border: 0.1px solid;
   margin-bottom: 100px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box_2:hover {
@@ -86,41 +98,58 @@
 .box_2 img {
   width: 70px; /* Замените на желаемый размер иконки */
   height: 70px; /* Замените на желаемый размер иконки */
-  margin-top: 70px;
-  margin-left: 740px;
 }
 
+
+.selectedImg {
+  width: 500px;
+  height: 500px;
+  display: none;
+  border: 5px solid lightgray;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: contain;
+}
 
 .knopka .btnn {
     margin-top: -40px; /* Добавить отступ между блоками с изображениями */
     display: inline-block;
-    width: 1590px; /* Ширина кнопки */
-    height: 70px; /* Высота кнопки */
+    width: 100%; /* Ширина кнопки */
+    height: 60px; /* Высота кнопки */
     background-color: #F89BEF; /* Цвет фона кнопки */
     color: #fff; /* Цвет текста кнопки */
     text-align: center;
     font-size: 23px;
     line-height: 80px; /* Выравнивание по центру вертикально */
     border: none;
-    border-radius: 100px; /* Закругленные углы кнопки */
+    border-radius: 8px; /* Закругленные углы кнопки */
     transition: background-color 0.3s, color 0.3s; /* Плавное изменение цвета при наведении */
 }
 
 .delete_btn {
   text-align: center;
   font-size: 20px;
-  background-color: #333333; /* Цвет фона кнопки */
-  color:#f1f1f1
+  background-color: #FE5E5E; /* Цвет фона кнопки */
+  color:#fff;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  /* margin-left: 715px; */
 }
 
 .knopka .btnn:hover {
-  background-color: #ff76f1;
+  /* background-color: #ff76f1; */
   transition: 0.6s;
 }
 
 .knopka{
-    padding-bottom: 100px;
-    display: flex;
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
 }
 
   .calculator {
@@ -179,9 +208,3 @@
     width: 1580px;
     margin-bottom: 100px;
   }
-  
-  button:hover {
-    background-color: #ff76f1; /* Изменение цвета фона при наведении */
-    color: #ffffff; /* Изменение цвета текста при наведении */
-    transition: 0.5s;
-}
